@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Market</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Tampil Belanja</div>
+        <hr>
+    <table border="1">
+        <tr>
+            <td>Nama Sayur</td>
+            <td>Harga/(kg)</td>
+            <td>Jumlah</td>
+            <td>Harga Awal</td>
+            <td>Jumlah Diskon</td>
+            <td>Harga Diskon</td>
+            <td>Total Bayar</td>
+        </tr> 
+        <tr>
+            <td th:text="${namasayur}"></td>
+            <td th:text="${hargasayur}"></td> 
+            <td th:text="${totalbrg}"></td> 
+            <td th:text="${beforeprice}"></td>
+            <td th:text="${discnumber}"></td>
+            <td th:text="${discquantity}"></td> 
+            <td th:text="${afterprice}"></td> 
+            
+        </tr>
+    </table>
+       
+    </body>
+</html>
